@@ -1,0 +1,32 @@
+int x = 7;
+char y = 'y';
+float z = 3.14;
+write x;
+
+while (x != 7) {
+    x += 2;
+    if (x > 7) {
+        x -= 5;
+    }
+}
+
+/*
+  All lexical tokens - not syntactically correct, but that will
+  have to wait until syntax analysis
+ */
+/* Print   */  print    /* Sub     */  -
+/* Lss     */  <
+/* If      */  if       /* Gtr     */  >
+/* Else    */  else     /* Leq     */  <=
+/* While   */  while    /* Geq     */  >=
+/* Lbrace  */  {        /* Eq      */  ==
+/* Rbrace  */  }        /* Neq     */  !=
+/* Lparen  */  (        /* And     */  &&
+/* Rparen  */  )        /* Or      */  ||
+/* Uminus  */  -        /* Semi    */  ;
+/* Not     */  !        /* Comma   */  ,
+/* Mul     */  *        /* Assign  */  =
+/* Div     */  /        /* Integer */  42
+/* Mod     */  %
+/* Add     */  +
+/* character literal */  ' '
